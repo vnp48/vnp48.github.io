@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Prabhu | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #111827;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px 0;
+            padding: 35px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-box {
+            background-color: #f3f4f6;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .skill-box h3 {
+            margin-bottom: 10px;
+        }
+
+        .skill-box ul {
+            padding-left: 20px;
+        }
+
+        .project {
+            background-color: #f9fafb;
+            border-left: 4px solid #1f2937;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin-bottom: 8px;
+        }
+
+        .project p {
+            margin-bottom: 10px;
+        }
+
+        .project a,
+        #contact a {
+            color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1f2937;
+            color: white;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Vikram Prabhu</h1>
+        <p>Accounting Student | Rutgers Business School</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main class="container">
+
+        <!-- Personal Statement -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am an Accounting student at Rutgers Business School
+                developing skills in financial analysis, data analytics,
+                problem-solving, and business technology.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skills">
+
+                <div class="skill-box">
+                    <h3>Accounting & Finance</h3>
+                    <ul>
+                        <li>Financial Accounting</li>
+                        <li>Managerial Accounting</li>
+                        <li>Cost Accounting</li>
+                        <li>Auditing</li>
+                        <li>Financial Forecasting</li>
+                        <li>Financial Reporting</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Technology</h3>
+                    <ul>
+                        <li>Microsoft Excel</li>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>Accounting Software</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </div>
+
+                <div class="skill-box">
+                    <h3>Professional Skills</h3>
+                    <ul>
+                        <li>Problem-Solving</li>
+                        <li>Team Collaboration</li>
+                        <li>Analytical Reasoning</li>
+                        <li>Communication</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Data Analytics on Taxes</h3>
+                <p><strong>April 2024 – May 2025</strong></p>
+
+                <p>
+                    Developed a data analytics project focused on analyzing
+                    tax-payment information and considering the security of
+                    tax-related data.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Accounting Coursework Projects</h3>
+
+                <p>
+                    Completed accounting coursework involving financial
+                    statements, managerial accounting, cost analysis,
+                    financial reporting, and auditing.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Business Data Analysis</h3>
+
+                <p>
+                    Applied Excel, statistics, and analytical reasoning to
+                    business-related coursework and data analysis activities.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Education -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Rutgers Business School</h3>
+
+            <p>
+                <strong>Bachelor of Science in Accounting</strong>
+            </p>
+
+            <p>Expected Graduation: May 2028</p>
+
+            <p>
+                Relevant Coursework: Financial Accounting, Managerial
+                Accounting, Intermediate Accounting, Cost Accounting,
+                Auditing, Statistics, Management Information Systems,
+                Microeconomics, Macroeconomics, Marketing, and Supply Chain.
+            </p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:vnp48@rutgers.edu">
+                    vnp48@rutgers.edu
+                </a>
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a
+                    href="https://www.linkedin.com/in/vikram-prabhu-30768234b/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    View My LinkedIn Profile
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vikram Prabhu | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
